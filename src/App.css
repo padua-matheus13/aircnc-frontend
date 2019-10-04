@@ -35,6 +35,7 @@ body, inout, button {
   width: 100%;
   background: #FFF;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 4px;
   padding: 30px;
 }
@@ -55,6 +56,12 @@ body, inout, button {
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.content form label span {
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
 }
 
 .content form input {
